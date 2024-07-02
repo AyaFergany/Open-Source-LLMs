@@ -3,7 +3,7 @@ import streamlit as st
 import google.generativeai as genai
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-os.environ['GOOGLE_API_KEY'] = "AIzaSyBTm4axDgCGC3Vc0ps8EMMnm7MDE0ZbjAM"
+os.environ['GOOGLE_API_KEY'] = ""
 genai.configure(api_key = os.environ['GOOGLE_API_KEY'])
 
 llm = ChatGoogleGenerativeAI(model="gemini-pro")
